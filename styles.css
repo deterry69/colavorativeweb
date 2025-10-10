@@ -43,15 +43,3 @@ a {
     border-radius: 5px;
 }
 
-a:hover {
-    background-color: #999;
-    color: #fff;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
