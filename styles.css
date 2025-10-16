@@ -1,8 +1,12 @@
-.body {
-    margin: 0;
-    background-color: bisque;
-    padding: auto;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF4E0; /* bisque más suave */
+    color: #333;
+    line-height: 1.6;
 }
+
+
+
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -35,6 +39,12 @@ img {
     margin: 0 auto 20px;
 }
 
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+
 a {
     color: #333;
     text-decoration: none;
@@ -44,15 +54,17 @@ a {
 }
 
 a:hover {
-    background-color: #999;
-    color: #fff;
+    background-color: #FF3B2F;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 footer {
-    background-color: #333;
+    background-color: #4B3B2A;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    margin-top: 40px;
 }
 
 
